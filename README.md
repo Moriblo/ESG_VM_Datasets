@@ -118,10 +118,11 @@ O Modelo Entidade-Relacionamento (ER) pode ser visto abaixo e o diagrama ER corr
 |------------------------------------------------------------------------------------|------------------|------------------------------------------------------------------------------|
 | 🌍 [Naturebase.org](https://naturebase.org)                                       | `GeoDados`       | Áreas prioritárias para NbS (polígonos, biomas, países)                     |
 | 🏡 [SICAR](https://www.car.gov.br/publico/cadastro)                                | `GeoDados`       | Imóveis rurais, uso do solo, sobreposição com projetos                      |
-| 🌱 [Embrapa AgroAPI](https://www.embrapa.br/agroapi) <br> 🌿 [B3 Sustentabilidade](https://www.b3.com.br/pt_br/b3/sustentabilidade/) | `ProjetoNbS`     | Clima, NDVI, solo, critérios de sustentabilidade → viabilidade e impacto    |
-| 💼 [ISE B3](https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-de-sustentabilidade/indice-de-sustentabilidade-empresarial-ise-b3.htm) | `FundoESG`       | Critérios ESG, setores, regiões, valores disponíveis                        |
+| 🌱 [Embrapa AgroAPI](https://www.embrapa.br/agroapi) <br> 🌿 [B3 Sustainability (EN)](https://ri.b3.com.br/en/b3/sustainability/) | `ProjetoNbS`     | Clima, NDVI, solo, critérios de sustentabilidade → viabilidade e impacto    |
+| 💼 [ISE B3](https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-de-sustentabilidade/indice-de-sustentabilidade-empresarial-ise-b3.htm) <br> 🟢 [Ações Verdes](https://conteudo.b3.com.br/acoesverdes) | `FundoESG`       | Critérios ESG, setores, regiões, valores disponíveis                        |
 | 🤝 [Aliança Brasil NbS](https://www.aliancabrasilnbs.org)                          | `ProjetoNbS`     | Cadastro direto ou via integração com parceiros                             |
 | 🛰️ [MapBiomas](https://mapbiomas.org) / [GFW](https://www.globalforestwatch.org) / [OSM](https://www.openstreetmap.org) | `GeoDados` | Uso da terra, alertas, infraestrutura                                       |
+
 
 
 
