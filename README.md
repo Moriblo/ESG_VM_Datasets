@@ -100,6 +100,18 @@ O Modelo Entidade-Relacionamento (ER) pode ser visto abaixo e o diagrama ER corr
 
 ---
 
+### 🔗 Mapeamento: Fontes Open Free → Tabelas do Projeto - VERSÃO INICIAL
+
+| 🌐 Fonte Open Free                                                                 | 🗃️ Tabela Alvo   | ⚙️ Tipo de Integração / Enriquecimento                                      |
+|------------------------------------------------------------------------------------|------------------|------------------------------------------------------------------------------|
+| 🌍 [Naturebase.org](https://naturebase.org)                                       | `GeoDados`       | Áreas prioritárias para NbS (polígonos, biomas, países)                     |
+| 🏡 [SICAR](https://www.car.gov.br/publico/cadastro)                                | `GeoDados`       | Imóveis rurais, uso do solo, sobreposição com projetos                      |
+| 🌱 [Embrapa AgroAPI](https://www.embrapa.br/agroapi)                               | `ProjetoNbS`     | Clima, NDVI, solo → viabilidade e impacto estimado                          |
+| 💼 [ESG Enterprise](https://www.esgenterprise.com) / [B3 ESG](https://www.b3.com.br) | `FundoESG`       | Critérios ESG, setores, regiões, valores disponíveis                        |
+| 🤝 [Aliança Brasil NbS](https://www.aliancabrasilnbs.org)                          | `ProjetoNbS`     | Cadastro direto ou via integração com parceiros                             |
+| 🛰️ [MapBiomas](https://mapbiomas.org) / [GFW](https://www.globalforestwatch.org) / [OSM](https://www.openstreetmap.org) | `GeoDados` | Uso da terra, alertas, infraestrutura                                       |
+
+
 ### 🔗 Mapeamento: Fontes Open Free → Tabelas do Projeto
 
 | 🌐 Fonte Open Free                                                                 | 🗃️ Tabela Alvo   | ⚙️ Tipo de Integração / Enriquecimento                                      |
