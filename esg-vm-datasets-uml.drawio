@@ -1,0 +1,214 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Modelo Completo ER" id="0">
+    <mxGraphModel dx="1013" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="usuario-group" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="18" y="52" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="usuario-box" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d5e8d4;fillColor=#ffffff;" parent="usuario-group" vertex="1">
+          <mxGeometry width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="usuario-title" value="👤 Usuario" style="text;html=1;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" parent="usuario-group" vertex="1">
+          <mxGeometry width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="usuario-1" value="+ id: UUID" style="text;html=1;align=left;spacingLeft=8;" parent="usuario-group" vertex="1">
+          <mxGeometry y="26" width="240" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="usuario-2" value="+ nome: String" style="text;html=1;align=left;spacingLeft=8;" parent="usuario-group" vertex="1">
+          <mxGeometry y="50" width="240" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="usuario-3" value="+ email: String" style="text;html=1;align=left;spacingLeft=8;" parent="usuario-group" vertex="1">
+          <mxGeometry y="74" width="240" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="usuario-4" value="+ tipo: Enum" style="text;html=1;align=left;spacingLeft=8;" parent="usuario-group" vertex="1">
+          <mxGeometry y="98" width="240" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="projeto-group" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="320" y="236" width="260" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="projeto-box" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#e1f5fe;fillColor=#ffffff;" parent="projeto-group" vertex="1">
+          <mxGeometry width="260" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="projeto-title" value="🌱 ProjetoNbS" style="text;html=1;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" parent="projeto-group" vertex="1">
+          <mxGeometry width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="projeto-1" value="+ id: UUID" style="text;html=1;align=left;spacingLeft=8;" parent="projeto-group" vertex="1">
+          <mxGeometry y="26" width="260" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="projeto-2" value="+ nome: String" style="text;html=1;align=left;spacingLeft=8;" parent="projeto-group" vertex="1">
+          <mxGeometry y="50" width="260" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="projeto-3" value="+ descricao: Text" style="text;html=1;align=left;spacingLeft=8;" parent="projeto-group" vertex="1">
+          <mxGeometry y="74" width="260" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="projeto-4" value="+ tipo: Enum" style="text;html=1;align=left;spacingLeft=8;" parent="projeto-group" vertex="1">
+          <mxGeometry y="98" width="260" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="projeto-5" value="+ localizacao: Point" style="text;html=1;align=left;spacingLeft=8;" parent="projeto-group" vertex="1">
+          <mxGeometry y="122" width="260" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="projeto-6" value="+ impacto_estimado: JSON" style="text;html=1;align=left;spacingLeft=8;" parent="projeto-group" vertex="1">
+          <mxGeometry y="146" width="260" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="projeto-7" value="+ status: Enum" style="text;html=1;align=left;spacingLeft=8;" parent="projeto-group" vertex="1">
+          <mxGeometry y="170" width="260" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="projeto-8" value="+ id_usuario: UUID (FK → Usuario.id)" style="text;html=1;fontStyle=1;align=left;spacingLeft=8;" parent="projeto-group" vertex="1">
+          <mxGeometry y="194" width="260" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="favorito-group" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="596" y="74" width="244" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="favorito-box" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#fff2cc;fillColor=#ffffff;" parent="favorito-group" vertex="1">
+          <mxGeometry width="243.99999999999997" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="favorito-title" value="⭐ Favorito" style="text;html=1;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" parent="favorito-group" vertex="1">
+          <mxGeometry width="243.99999999999997" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="favorito-1" value="+ id_usuario: UUID (FK → Usuario.id)" style="text;html=1;fontStyle=1;align=left;spacingLeft=8;" parent="favorito-group" vertex="1">
+          <mxGeometry y="26" width="243.99999999999997" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="favorito-2" value="+ id_projeto: UUID (FK → ProjetoNbS.id)" style="text;html=1;fontStyle=1;align=left;spacingLeft=8;" parent="favorito-group" vertex="1">
+          <mxGeometry y="50" width="243.99999999999997" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="fundo-group" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="30" y="704" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fundo-box" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d0f0c0;fillColor=#ffffff;" parent="fundo-group" vertex="1">
+          <mxGeometry width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fundo-title" value="💰 FundoESG" style="text;html=1;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" parent="fundo-group" vertex="1">
+          <mxGeometry width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fundo-1" value="+ id: UUID" style="text;html=1;align=left;spacingLeft=8;" parent="fundo-group" vertex="1">
+          <mxGeometry y="26" width="240" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="fundo-2" value="+ nome: String" style="text;html=1;align=left;spacingLeft=8;" parent="fundo-group" vertex="1">
+          <mxGeometry y="50" width="240" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="fundo-3" value="+ criterios: JSON" style="text;html=1;align=left;spacingLeft=8;" parent="fundo-group" vertex="1">
+          <mxGeometry y="74" width="240" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="fundo-4" value="+ valor_disponivel: Decimal" style="text;html=1;align=left;spacingLeft=8;" parent="fundo-group" vertex="1">
+          <mxGeometry y="98" width="240" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="match-group" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="30" y="512" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="match-box" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#fff2cc;fillColor=#ffffff;" parent="match-group" vertex="1">
+          <mxGeometry width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="match-title" value="🔗 Match" style="text;html=1;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" parent="match-group" vertex="1">
+          <mxGeometry width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="match-1" value="+ id: UUID" style="text;html=1;align=left;spacingLeft=8;" parent="match-group" vertex="1">
+          <mxGeometry y="26" width="240" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="match-2" value="+ id_projeto: UUID (FK → ProjetoNbS.id)" style="text;html=1;fontStyle=1;align=left;spacingLeft=8;" parent="match-group" vertex="1">
+          <mxGeometry y="50" width="240" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="match-3" value="+ id_fundo: UUID (FK → FundoESG.id)" style="text;html=1;fontStyle=1;align=left;spacingLeft=8;" parent="match-group" vertex="1">
+          <mxGeometry y="74" width="240" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="match-4" value="+ score: Decimal" style="text;html=1;align=left;spacingLeft=8;" parent="match-group" vertex="1">
+          <mxGeometry y="98" width="240" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="geo-group" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="600" y="514" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="geo-box" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#e1e1f5;fillColor=#ffffff;" parent="geo-group" vertex="1">
+          <mxGeometry width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="geo-title" value="🗺️ GeoDados" style="text;html=1;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" parent="geo-group" vertex="1">
+          <mxGeometry width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="geo-1" value="+ id: UUID" style="text;html=1;align=left;spacingLeft=8;" parent="geo-group" vertex="1">
+          <mxGeometry y="26" width="240" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="geo-2" value="+ tipo: Enum" style="text;html=1;align=left;spacingLeft=8;" parent="geo-group" vertex="1">
+          <mxGeometry y="50" width="240" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="geo-3" value="+ poligono: GeoJSON" style="text;html=1;align=left;spacingLeft=8;" parent="geo-group" vertex="1">
+          <mxGeometry y="74" width="240" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="geo-4" value="+ metadados: JSON" style="text;html=1;align=left;spacingLeft=8;" parent="geo-group" vertex="1">
+          <mxGeometry y="98" width="240" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="rel1" value="N:1\n(id_usuario → Usuario.id)" style="endArrow=block;html=1;labelBackgroundColor=#ffffff;" parent="1" source="projeto-group" target="usuario-group" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel2" value="N:1\n(id_usuario → Usuario.id)" style="endArrow=block;html=1;labelBackgroundColor=#ffffff;" parent="1" source="favorito-group" target="usuario-group" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel3" value="N:1\n(id_projeto → ProjetoNbS.id)" style="endArrow=block;html=1;labelBackgroundColor=#ffffff;" parent="1" source="favorito-group" target="projeto-group" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel4" value="N:1\n(id_projeto → ProjetoNbS.id)" style="endArrow=block;html=1;labelBackgroundColor=#ffffff;" parent="1" source="match-group" target="projeto-group" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel5" value="N:1\n(id_fundo → FundoESG.id)" style="endArrow=block;html=1;labelBackgroundColor=#ffffff;" parent="1" source="match-group" target="fundo-group" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel6" value="N:1\n(GeoDados → ProjetoNbS)" style="endArrow=block;html=1;labelBackgroundColor=#ffffff;" parent="1" source="geo-group" target="projeto-group" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="projgeo-group" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="320" y="705" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="projgeo-box" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#ffe6cc;fillColor=#ffffff;" parent="projgeo-group" vertex="1">
+          <mxGeometry width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="projgeo-title" value="🧩 ProjetoGeo" style="text;html=1;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" parent="projgeo-group" vertex="1">
+          <mxGeometry width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="projgeo-1" value="+ id_projeto: UUID (FK → ProjetoNbS.id)" style="text;html=1;fontStyle=1;align=left;spacingLeft=8;" parent="projgeo-group" vertex="1">
+          <mxGeometry y="26" width="260" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="projgeo-2" value="+ id_geodado: UUID (FK → GeoDados.id)" style="text;html=1;fontStyle=1;align=left;spacingLeft=8;" parent="projgeo-group" vertex="1">
+          <mxGeometry y="50" width="260" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="projgeo-3" value="+ tipo_associacao: Enum" style="text;html=1;align=left;spacingLeft=8;" parent="projgeo-group" vertex="1">
+          <mxGeometry y="74" width="260" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="legenda-group" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="569" y="860" width="270" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="legenda-box" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#cccccc;fillColor=#f9f9f9;" parent="legenda-group" vertex="1">
+          <mxGeometry width="270" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="legenda-title" value="🧭 Legenda ER" style="text;html=1;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" parent="legenda-group" vertex="1">
+          <mxGeometry width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="legenda-1" value="📦 Entidade: agrupamento de campos" style="text;html=1;align=left;spacingLeft=8;" parent="legenda-group" vertex="1">
+          <mxGeometry y="26" width="270" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="legenda-2" value="+ campo: tipo — atributo da entidade" style="text;html=1;align=left;spacingLeft=8;" parent="legenda-group" vertex="1">
+          <mxGeometry y="50" width="270" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="legenda-3" value="🔑 PK — chave primária" style="text;html=1;align=left;spacingLeft=8;" parent="legenda-group" vertex="1">
+          <mxGeometry y="74" width="270" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="legenda-4" value="🔗 FK → Tabela.campo — chave estrangeira" style="text;html=1;align=left;spacingLeft=8;" parent="legenda-group" vertex="1">
+          <mxGeometry y="98" width="270" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="legenda-5" value="➡️ 1:1, 1:N, N:N — cardinalidade" style="text;html=1;align=left;spacingLeft=8;" parent="legenda-group" vertex="1">
+          <mxGeometry y="122" width="270" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="legenda-6" value="📐 Seta com rótulo = relacionamento" style="text;html=1;align=left;spacingLeft=8;" parent="legenda-group" vertex="1">
+          <mxGeometry y="146" width="270" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="legenda-7" value="🧩 Entidade associativa = N:N resolvido" style="text;html=1;align=left;spacingLeft=8;" parent="legenda-group" vertex="1">
+          <mxGeometry y="170" width="270" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="rel7" value="N:1\n(id_projeto → ProjetoNbS.id)" style="endArrow=block;html=1;labelBackgroundColor=#ffffff;" parent="1" source="projgeo-group" target="projeto-group" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel8" value="N:1\n(id_geodado → GeoDados.id)" style="endArrow=block;html=1;labelBackgroundColor=#ffffff;" parent="1" source="projgeo-group" target="geo-group" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
