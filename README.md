@@ -94,7 +94,7 @@ Este documento descreve a modelagem relacional do banco de dados para o programa
 
 ## 📌 Diagrama ER
 
-O diagrama ER correspondente pode ser visualizado no arquivo `.drawio` gerado separadamente, com relacionamentos evidenciados, cardinalidade e agrupamentos visuais.
+O Modelo Entidade-Relacionamento (ER) pode ser visto abaixo e o diagrama ER correspondente pode ser visualizado no arquivo `.drawio` gerado separadamente, com relacionamentos evidenciados, cardinalidade e agrupamentos visuais.
 
 ![Diagrama ER](https://github.com/Moriblo/ESG_VM_Datasets/blob/main/esg-vm-datasets-uml.drawio.png)
 
