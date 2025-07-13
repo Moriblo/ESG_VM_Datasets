@@ -109,7 +109,7 @@ O Modelo Entidade-Relacionamento (ER) pode ser visto abaixo e o diagrama ER corr
 | 🌱 [Embrapa AgroAPI](https://www.embrapa.br/agroapi) <br> 🌿 [B3 (home)](https://www.b3.com.br/en_us/) | `ProjetoNbS`     | Clima, NDVI, solo, critérios de sustentabilidade → viabilidade e impacto    |
 | 💼 [ISE B3](https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-de-sustentabilidade/indice-de-sustentabilidade-empresarial-ise-b3.htm) <br> 🟢 [Ações Verdes](https://conteudo.b3.com.br/acoesverdes) | `FundoESG`       | Critérios ESG, setores, regiões, valores disponíveis                        |
 | 🤝 [Aliança Brasil NbS](https://www.aliancabrasilnbs.org)                          | `ProjetoNbS`     | Cadastro direto ou via integração com parceiros                             |
-| [GFW](https://www.globalforestwatch.org) / [OSM](https://www.openstreetmap.org) | `GeoDados` | Uso da terra, alertas, infraestrutura                                       |
+| 🛰️ [GFW](https://www.globalforestwatch.org) / [OSM](https://www.openstreetmap.org) | `GeoDados` | Uso da terra, alertas, infraestrutura                                       |
 | 🛰️ [MapBiomas](https://mapbiomas.org) | `GeoDados` | Degradação | 
 
 
